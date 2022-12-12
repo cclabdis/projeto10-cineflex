@@ -39,7 +39,7 @@ export default function Success() {
         <p>CPF: {order.cpf}</p>
       </InfoGroup>
 
-      <ButtonGroup>
+      <ButtonGroup data-test="go-home-btn">
         <Button onClick={() => goHome()} data-test="go-home-btn">
           Voltar para Home
         </Button>
