@@ -9,11 +9,11 @@
     - [ ]  Versionamento usando Git é obrigatório, crie um **repositório público** no seu perfil do GitHub
     - [ ]  Faça commits a cada funcionalidade implementada
 - Layout
-    - [ ]  Aplicar layout para mobile, seguindo figma fornecido (não é necessário implementar um layout para desktop)
+    - [x]  Aplicar layout para mobile, seguindo figma fornecido (não é necessário implementar um layout para desktop)
         
         [https://www.figma.com/file/xt4dsKrSryDMuTaSaEBuwV/Cineflex?node-id=0%3A1](https://www.figma.com/file/xt4dsKrSryDMuTaSaEBuwV/Cineflex?node-id=0%3A1)
         
-    - [ ]  Use as exatamente cores indicadas no Figma para assento “Disponível”, “Selecionado” e “Indisponível”
+    - [x]  Use as exatamente cores indicadas no Figma para assento “Disponível”, “Selecionado” e “Indisponível”
 - Escolha de Filme (rota "/")
     - [ ]  Buscar as informações dos filmes pela API fornecida e exibir conforme layout fornecido
     - [ ]  Ao clicar em um filme, o usuário deve ser redirecionado para a rota "/sessoes/:idFilme", sendo :idFilme o id do filme clicado
@@ -26,10 +26,10 @@
     - [ ]  Ao clicar novamente em um assento selecionado, este deve voltar para "Disponível"
     - [ ]  Ao clicar em um assento indisponível, deverá ser exibido um alerta de "Esse assento não está disponível"
     - [ ]  O usuário pode selecionar vários assentos
-    - [ ]  O usuário deve poder inserir o nome e o CPF do comprador
-    - [ ]  Ao clicar em "Reservar assento(s)", o pedido deve ser enviado para o servidor e o usuário deve ser redirecionado para a rota "/sucesso".  Isso fará com os assentos marcados fiquem indisponíveis para outras marcações.
+    - [x]  O usuário deve poder inserir o nome e o CPF do comprador
+    - [x]  Ao clicar em "Reservar assento(s)", o pedido deve ser enviado para o servidor e o usuário deve ser redirecionado para a rota "/sucesso".  Isso fará com os assentos marcados fiquem indisponíveis para outras marcações.
 - Rodapé
-    - [ ]  Ao longo das telas de Sessão e Assento, deve ser exibido um rodapé com as informações do filme selecionado. Estas informações virão das chamadas à API em cada tela
+    - [x]  Ao longo das telas de Sessão e Assento, deve ser exibido um rodapé com as informações do filme selecionado. Estas informações virão das chamadas à API em cada tela
 - Sucesso
-    - [ ]  Implementar layout conforme fornecido, exibindo os dados do pedido feito
+    - [x]  Implementar layout conforme fornecido, exibindo os dados do pedido feito
     - [ ]  Ao clicar em "Voltar para Home" o usuário deve voltar para a rota inicial ("/"), com o pedido zerado
