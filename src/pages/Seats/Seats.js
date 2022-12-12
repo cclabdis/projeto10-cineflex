@@ -118,8 +118,9 @@ export default function Seats() {
             <input
               type="text"
               id="cpf"
-              onChange={(e) => setCpf(e.target.value)}
-              placeholder="Digite seu CPF"
+              pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+			        onChange={(e) => setCpf(e.target.value)}
+              placeholder="Digite um CPF no formato: xxx.xxx.xxx-xx"
               required
               data-test="client-cpf"
             />

@@ -47,23 +47,7 @@
     - Quando passamos um objeto inteiro para um componente via props podemos facilmente descobri qual componente foi clicado
         
         ```jsx
-        function Seat({ seat, handleSeat }) {
-          return (
-            <>
-              {!seat.selected ? (
-                <div className={`seat ${seat.status}`} 
-        						onClick={() => handleSeat(seat)}>
-                  {seat.id}
-                </div>
-              ) : (
-                <div className={`seat selected`} 
-        						onClick={() => handleSeat(seat)}>
-                  {seat.id}
-                </div>
-              )}
-            </>
-          );
-        }
+      
         ```
         
     - Logo, podemos disparar a função escrita no componente pai recebendo a referência (o próprio objeto) que disparou o clique.

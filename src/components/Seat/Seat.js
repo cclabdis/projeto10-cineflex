@@ -26,13 +26,13 @@ export default function Seat(props) {
   const handleClick = () => {
     return props.seat.isAvailable
       ? selectSeat(props.seat.id, props.index + 1)
-      : alert("Esse assento não está disponível");
+      : alert("Este assento não está disponível");
   };
 
   const handleColor = () => {
     let colors = {
       bg: "#C3CFD9",
-      border: "#808F9D",
+      border: "##C3CFD9",
     };
 
     if (isSelected(props.seat.id)) {
